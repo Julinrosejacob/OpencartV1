@@ -20,7 +20,7 @@ public class TC_002_LoginTest extends BaseClass
 			logger.info("Home Page Displayed ");
 			
 			driver.manage().window().maximize();
-			Thread.sleep(2000);
+			Thread.sleep(5000);
 			
 			HomePage hp=new HomePage(driver);
 			hp.clickMyAccount();
@@ -38,7 +38,7 @@ public class TC_002_LoginTest extends BaseClass
 			
 			lp.clickLogin();
 			logger.info("Clicked on Login");
-			Thread.sleep(3000);
+			Thread.sleep(8000);
 			
 			
 			boolean targetpage=lp.isMyAccountPageExists();

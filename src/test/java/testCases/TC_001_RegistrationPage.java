@@ -19,7 +19,7 @@ public class TC_001_RegistrationPage extends BaseClass
 		logger.info("Home Page Displayed ");
 		
 		driver.manage().window().maximize();
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		
 		HomePage hp=new HomePage(driver);
 		hp.clickMyAccount();
